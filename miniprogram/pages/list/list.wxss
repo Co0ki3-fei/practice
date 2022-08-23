@@ -1,0 +1,70 @@
+/* pages/list/list.wxss */
+.container1 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container1 view:nth-child(1){
+  background-color: aqua;
+}
+.container1 view:nth-child(2){
+  background-color: aquamarine;
+}
+.container1 view:nth-child(3){
+  background-color: cornflowerblue;
+}
+
+.container1{
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.container2{
+  height: 200px;
+  width: 100%;
+}
+
+.container2 view{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container2 view:nth-child(1){
+  background-color: cornsilk;
+}
+.container2 view:nth-child(2){
+  background-color: aquamarine;
+}
+.container2 view:nth-child(3){
+  background-color: cornflowerblue;
+}
+
+.swiper-container{
+  height: 150px;
+  width: 100%;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 150px;
+}
+
+swiper-item:nth-child(1) .item{
+  background-color: pink;
+}
+
+swiper-item:nth-child(2) .item{
+  background-color: rgb(105, 214, 241);
+}
+
+swiper-item:nth-child(3) image{
+  background-color: rgb(105, 214, 241);
+}
+

@@ -1,0 +1,33 @@
+<!--pages/list/list.wxml-->
+<view class="container1">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</view>
+
+<scroll-view class="container2" scroll-y>
+  <view>    
+    可选中的
+    <text user-select="true">{{telenumber}}</text>
+  </view>
+  <view>
+    不可选中的{{telenumber}}
+  </view>
+  <view>❥(^_-)</view>
+</scroll-view>
+<button bindtap="btnTapHandler">test</button>
+<button type="primary" size="mini">main</button>
+<button type="warn" plain="true">warning</button>
+<rich-text nodes="<h1 style='color:pink'>{{randomNum >= 5 ? '随机数字大于五' : '随机数字小于五'}}</h1>"></rich-text>
+
+<swiper class="swiper-container" indicator-dots circular="true" autoplay="true">
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <image class="item" src="{{imgSrc}}img-1.jpg" mode="scaleToFill"></image>
+  </swiper-item>
+</swiper>
